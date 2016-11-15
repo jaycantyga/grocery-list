@@ -15,6 +15,8 @@ class GroceryListViewController: UIViewController, UICollectionViewDataSource, U
     var data: [[String: Any]] = GroceryItemsModel.shared.inventoryList
     var selectedCell: GroceryItemCollectionViewCell?
     var selectedCellIndex: Int?
+    
+    //MARK: - lifecycle
 
     override func viewDidLoad() {
         
